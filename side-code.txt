@@ -1,0 +1,294 @@
+<!-- User Data and Recipes -->
+    <div class="user-data-recipes">
+        <div class="user-data">
+            <!-- User Data -->
+            <div class="first-last-name-input">
+                <input type="text" placeholder="Vorname...">
+                <input type="text" placeholder="Nachname...">
+            </div>
+            <div class="mail-input">
+                <input type="text" placeholder="Deine E-Mail...">
+            </div>
+            <div class="text-area">
+                <textarea placeholder="Deine Nachricht an uns..."></textarea>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Senden">
+            </div>
+        </div>
+        <div class="recipes">
+            <div class="share-recipes">
+                <h2>Teile deine Rezepte</h2>
+            </div>
+            <div class="how-it-works">
+                <h3>Wie es funktioniert:</h3>
+            </div>
+            <div class="list">
+                <div>
+                    <div class="first-point">
+                        <h3>1</h3>
+                        <p>Erstellen Sie eine Zutatenliste</p>
+                    </div>
+                    <div class="second-point">
+                        <h3>2</h3>
+                        <p>Schritt-für-Schritt Methode</p>
+                    </div>
+                    <div class="third-point">
+                        <h3>3</h3>
+                        <p>An unsere Mail senden</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Contact Info -->
+    <div>
+        <div class="contact-info-box">
+            <div class="maps">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d170347.25271771871!2d11.401750478093476!3d48.155054695555954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e75f9a38c5fd9%3A0x10cb84a7db1987d!2sMunich%2C%20Germany!5e0!3m2!1sen!2shk!4v1654179609837!5m2!1sen!2shk"
+                    width="1000" height="250" style="border-radius: 10px;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contact-img">
+                <a href="tel:1321651651365"><img src="img/contact-form/phone-c.png" style="width: 60px;"></a>
+                <a href="mailto: mail@kochwelt.de"><img src="img/contact-form/mail-c.png" style="width: 60px;"></a>
+                <a href="www.facebook.com" target="_blank"><img src="img/contact-form/facebook-c.png"
+                        style="width: 60px;"></a>
+                <a href="www.instagram.com" target="_blank"><img src="img/contact-form/instagram-c.png"
+                        style="width: 60px;"></a>
+                <a href="www.twitter.com" target="_blank"><img src="img/contact-form/twitter-c.png"
+                        style="width: 60px;"></a>
+                <a href="www.tiktok.com" target="_blank"><img src="img/contact-form/tiktok-c.png"
+                        style="width: 60px;"></a>
+            </div>
+        </div>
+    </div>
+
+
+body {
+  margin: 0px;
+  font-family: "Economica", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+.html {
+  scroll-behavior: smooth;
+}
+
+.contact-form {
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.user-data-recipes {
+  border-style: dotted;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.user-data {
+  height: 450px;
+  background-color: rgb(236, 236, 236);
+  box-shadow: 0 0 16px 0px #0003;
+  
+}
+
+.first-last-name-input {
+  margin-top: 40px;
+  display: flex;
+  height: 60px;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.first-last-name-input input {
+  border-radius: 20px;
+}
+
+.first-last-name-input ::placeholder {
+  display: flex;
+  text-align: center;
+  font-size: 15px;
+}
+
+.mail-input {
+  margin-top: 30px;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+}
+
+.mail-input input {
+  width: 250px;
+  border-radius: 20px;
+}
+
+.mail-input ::placeholder {
+  display: flex;
+  text-align: center;
+  font-size: 15px;
+}
+
+.text-area {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.text-area textarea {
+  height: 100px;
+  width: 450px;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.text-area ::placeholder {
+  display: flex;
+  text-align: center;
+  font-size: 15px;
+}
+
+.submit {
+  margin-top: 30px;
+  display: flex;
+  height: 60px;
+  justify-content: space-around;
+}
+
+input[type="submit"] {
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 150px;
+}
+
+.recipes {
+  width: 400px;
+  border-style: dotted;
+  border-radius: 50px;
+}
+
+.share-recipes {
+  text-align: center;
+}
+
+.how-it-works {
+  text-align: center;
+}
+
+.list {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.first-point {
+  position: relative;
+  width: 300px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.first-point h3 {
+  padding: 10px;
+  font-size: 40px;
+  background-color: rgb(96, 126, 151);
+  border-radius: 10px;
+  position: absolute;
+  left: 15px;
+}
+
+.first-point p {
+  border-radius: 5px;
+  z-index: -1;
+  font-size: 18px;
+  width: 300px;
+  text-align: right;
+  padding: 15px;
+  background-color: rgb(103, 187, 103);
+}
+
+.second-point {
+  position: relative;
+  width: 300px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.second-point h3 {
+  padding: 10px;
+  font-size: 40px;
+  background-color: rgb(96, 126, 151);
+  border-radius: 10px;
+  position: absolute;
+  left: 15px;
+}
+
+.second-point p {
+  border-radius: 5px;
+  z-index: -1;
+  font-size: 18px;
+  width: 300px;
+  text-align: right;
+  padding: 15px;
+  background-color: rgb(103, 187, 103);
+}
+
+.third-point {
+  position: relative;
+  width: 300px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.third-point h3 {
+  padding: 10px;
+  font-size: 40px;
+  background-color: rgb(96, 126, 151);
+  border-radius: 10px;
+  position: absolute;
+  left: 15px;
+}
+
+.third-point p {
+  border-radius: 5px;
+  z-index: -1;
+  font-size: 18px;
+  width: 300px;
+  text-align: right;
+  padding: 15px;
+  background-color: rgb(103, 187, 103);
+}
+
+.contact-info-box {
+  border-style: dotted;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 350px;
+}
+
+.maps {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-img {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}

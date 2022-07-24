@@ -1,0 +1,455 @@
+body {
+  
+   margin: 0px auto;
+  font-family: "Economica", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+.html {
+  scroll-behavior: smooth;
+}
+
+.welcome-kochwelt {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.welcome-text {
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.welcome-text p {
+  width: 500px;
+}
+
+.comparison-box {
+  display: flex;
+  justify-content: center;
+  height: 350px;
+  background-color: rgb(245, 245, 245);
+}
+
+.comparison {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.comparison-text {
+  width: 500px;
+}
+
+.jamie img {
+  border-radius: 10px;
+}
+
+.ramsey img {
+  border-radius: 10px;
+  margin-left: 20px;
+  width: 400px;
+  object-fit: cover;
+}
+
+.backgroundcoler {
+  background-color: rgb(245, 245, 245);
+  margin: 0px;
+}
+
+.recipes-index {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.index-imgs1 {
+  width: 300px;
+  object-fit: cover;
+}
+.index-imgs2 {
+  width: 300px;
+  object-fit: cover;
+}
+.index-imgs3 {
+  width: 300px;
+  object-fit: cover;
+}
+.index-imgs4 {
+  width: 300px;
+  object-fit: cover;
+}
+.index-imgs5 {
+  width: 300px;
+  object-fit: cover;
+}
+
+.h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  margin-bottom: 0px;
+}
+
+.philosophy-box-text {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.philosophy-text {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.philosophy-text img {
+  border-radius: 10px;
+  width: 300px;
+  height: 200px;
+}
+
+/* iPhone SE */
+@media only screen and (min-width: 370px) and (max-width: 380px) {
+  .philosophy-box-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .philosophy-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+}
+
+/* iPhone XR - S20 Ultra - Galaxy A51/71 */
+@media only screen and (min-width: 410px) and (max-width: 420px) {
+  .philosophy-box-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .philosophy-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+}
+
+/* iPhone 12 Pro - Pixel 5*/
+@media only screen and (min-width: 385px) and (max-width: 400px) {
+  .philosophy-box-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .philosophy-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+}
+
+/* Samsung Galaxy S8+*/
+@media only screen and (min-width: 355px) and (max-width: 365px) {
+  philosophy-box-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .philosophy-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+}
+
+/* iPad Air */
+@media only screen and (min-width: 815px) and (max-width: 825px) {
+  philosophy-box-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .philosophy-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+}
+/* iPad Mini */
+@media only screen and (min-width: 765px) and (max-width: 770px) {
+  philosophy-box-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .philosophy-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+}
+
+/* Surface Pro 7 */
+@media only screen and (min-width: 910px) and (max-width: 915px) {
+  philosophy-box-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .philosophy-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+}
+
+/* Surface Duo */
+@media only screen and (min-width: 535px) and (max-width: 545px) {
+  philosophy-box-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .philosophy-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+}
+
+/* Galaxy Fold */
+@media only screen and (min-width: 270px) and (max-width: 285px) {
+  philosophy-box-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .philosophy-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    width: 270px;
+  }
+
+  .philosophy-text img {
+    width: 270px;
+  }
+
+  .footerS-30{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1500px) {
+  .index-imgs1 {
+    display: none;
+    margin: 0px;
+  }
+  .index-imgs2 {
+    display: none;
+    margin: 0px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .header-menu {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .logo a img {
+    width: 150px;
+  }
+}
+@media (max-width: 930px) {
+
+  .welcome-kochwelt{
+    font-size: 16px;
+    text-align: center;
+   }
+  .index-imgs3 {
+    width: 200px;
+    margin: 0px;
+  }
+  .index-imgs4 {
+    width: 200px;
+    margin: 0px;
+  }
+  .index-imgs5 {
+    width: 200px;
+    margin: 0px;
+  }
+
+  .ramsey img {
+    width: 200px;
+  }
+
+  .footer-grey{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 14px;
+  }
+
+  .footer-row1 {
+    width: 270px;
+    flex-direction: column;
+    margin-left: 10px;
+    
+    
+  }
+
+  .footer-40 {
+    text-align: center;
+    width: 270px;
+    text-align: center;
+  }
+
+  .footerS-30 {
+    position: relative;
+    left: 25px;
+    justify-content: space-around;
+    width: 200px;
+    
+  }
+
+  .footer-links{
+    font-size: 14px;
+  }
+
+.row{
+  display: flex;
+   justify-content: space-between;
+   margin: 0px;
+}
+
+  .footer-low {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-icons {
+   position: relative;
+  }
+
+}
+
+@media (max-width: 760px) {
+  .welcome-text {
+    flex-direction: column;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .comparison {
+    flex-direction: column;
+  }
+
+  .h2 {
+    padding-bottom: 10px;
+  }
+
+  .recipes-index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+
+}
+
+
+@media (max-width: 545px) {
+ .welcome-kochwelt{
+  font-size: 10px;
+  text-align: center;
+ }
+
+ .welcome-text p{
+  width: 240px;
+  text-align: center;
+  
+
+ }
+
+.comparison-box{
+  padding-bottom: 50px;
+}
+
+ .comparison-text{
+  width: 280px;
+  
+ }
+
+ .comparison-text p{
+  width: 270px;
+  text-align: center;
+ }
+
+ .search {
+  width: 270px;
+ }
+
+ .header-menu a {
+  font-size: 14px;
+ }
+
+ .footer-icons img{
+  width: 15px;
+ }
+ .header-menu a {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+}

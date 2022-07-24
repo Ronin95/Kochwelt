@@ -1,0 +1,824 @@
+body {
+  margin: 0px;
+  font-family: "Economica", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+.html {
+  scroll-behavior: smooth;
+}
+
+.paddingLeftRight {
+  padding-left: 128px;
+  padding-right: 128px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.Rezept1_Pic {
+  display: flex;
+
+  justify-content: center;
+}
+
+.little_box {
+  background-color: rgb(201, 199, 199);
+  border-radius: 5px;
+}
+
+.Zeit {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.button:hover{
+  cursor: pointer;
+  text-decoration:underline;
+  background-color:#367741
+}
+
+.button {
+  border: none;
+  border-radius: 5px;
+  background-color: forestgreen;
+  color: whitesmoke;
+}
+
+.ingredients {
+  display: flex;
+  justify-content: center;
+}
+
+.table tr:hover{
+  cursor: pointer;
+  color: #3b8047;
+  text-decoration: none;
+}
+
+.td1 {
+  box-sizing: border-box;
+  text-align: right;
+}
+
+.td2 {
+  box-sizing: border-box;
+  padding: 5px 15px;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 20px 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 50%;
+  border-radius: 25px;
+}
+
+tr td:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+tr td:last-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.color1 {
+  background-color: rgb(201, 199, 199);
+}
+
+/*
+ul{
+    list-style-type: none;
+    
+    
+}
+
+.li1{
+    background-color: rgb(201, 199, 199);
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    border-radius: 5px;
+    
+}
+
+.li2{
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    border-radius: 5px;
+}
+*/
+.prep {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.prep_time {
+  padding-right: 20px;
+}
+
+.madeby {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footerS-30 {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+}
+
+/* iPhone SE */
+@media only screen and (min-width: 370px) and (max-width: 380px) {
+
+  h1{
+    padding-left: 50px;
+    padding-right: 30px;
+  }
+
+  .prep{
+  
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .header {
+    flex-direction: column;
+  }
+  
+  .search {
+    width: 270px;
+    margin-bottom: 20px;
+  }
+
+  .search-field input {
+    width: 370px;
+    margin-bottom: 20px;
+  }
+  
+  .header-menu {
+    margin-bottom: 20px;
+  }
+  
+  .footer-row1 {
+    flex-direction: column;
+    width: 370px;
+  }
+  
+  .footer-40 {
+    position: relative;
+    left: 15px;
+    text-align: center;
+    width: 350px;
+  }
+  
+  .footerS-30 {
+    position: relative;
+    left: 50px;
+  }
+  
+  .footer-low {
+    position: relative;
+    right: 180px;
+  }
+  
+  .footer-icons {
+    position: relative;
+    right: 100px;
+  }
+  
+  }
+
+  /* iPhone XR - S20 Ultra - Galaxy A51/71 */
+@media only screen and (min-width: 410px) and (max-width: 420px) {
+  h1{
+    padding-left: 50px;
+    padding-right: 30px;
+  }
+
+  .prep{
+  
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .header {
+    flex-direction: column;
+  }
+  
+  .search {
+    width: 270px;
+    margin-bottom: 20px;
+  }
+
+  .search-field input {
+    width: 370px;
+    margin-bottom: 20px;
+  }
+  
+  .header-menu {
+    margin-bottom: 20px;
+  }
+  
+  .footer-row1 {
+    flex-direction: column;
+    width: 370px;
+  }
+  
+  .footer-40 {
+    position: relative;
+    left: 15px;
+    text-align: center;
+    width: 350px;
+  }
+  
+  .footerS-30 {
+    position: relative;
+    left: 50px;
+  }
+  
+  .footer-low {
+    position: relative;
+    right: 180px;
+  }
+  
+  .footer-icons {
+    position: relative;
+    right: 100px;
+  }
+  
+  }
+
+  /* iPhone 12 Pro - Pixel 5*/
+@media only screen and (min-width: 385px) and (max-width: 400px) {
+  h1{
+    padding-left: 50px;
+    padding-right: 30px;
+  }
+
+  .prep{
+  
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .header {
+    flex-direction: column;
+  }
+  
+  .search {
+    width: 270px;
+    margin-bottom: 20px;
+  }
+
+  .search-field input {
+    width: 370px;
+    margin-bottom: 20px;
+  }
+  
+  .header-menu {
+    margin-bottom: 20px;
+  }
+  
+  .footer-row1 {
+    flex-direction: column;
+    width: 370px;
+  }
+  
+  .footer-40 {
+    position: relative;
+    left: 15px;
+    text-align: center;
+    width: 350px;
+  }
+  
+  .footerS-30 {
+    position: relative;
+    left: 50px;
+  }
+  
+  .footer-low {
+    position: relative;
+    right: 180px;
+  }
+  
+  .footer-icons {
+    position: relative;
+    right: 100px;
+  }
+  
+  }
+  /* Samsung Galaxy S8+*/
+@media only screen and (min-width: 355px) and (max-width: 365px) {
+  h1{
+    padding-left: 50px;
+    padding-right: 30px;
+  }
+
+  .prep{
+  
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .header {
+    flex-direction: column;
+  }
+  
+  .header-menu {
+    margin-bottom: 20px;
+  }
+
+  .search {
+    width: 270px;
+    margin-bottom: 20px;
+  }
+
+  .search-field input {
+    width: 355px;
+    margin-bottom: 20px;
+  }
+  
+  .list {
+    flex-direction: column;
+  }
+
+  .userData-contactMaps {
+    flex-direction: column;
+    width: 355px;
+  }
+
+  .header-menu {
+    margin-bottom: 20px;
+  }
+  
+  .footer-row1 {
+    flex-direction: column;
+    width: 370px;
+  }
+  
+  .footer-40 {
+    
+    margin-right: 30px;
+    text-align: center;
+    width: 355px;
+  }
+  
+  .footerS-30 {
+    position: relative;
+    left: 50px;
+  }
+  
+  .footer-low {
+    position: relative;
+    right: 180px;
+  }
+  
+  .footer-icons {
+    position: relative;
+    right: 110px;
+  }
+  
+  }
+
+  /* iPad Air */
+@media only screen and (min-width: 815px) and (max-width: 825px) {
+  h1{
+    padding-left: 50px;
+    padding-right: 30px;
+  }
+
+  .prep{
+  
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .header {
+    flex-direction: column;
+  }
+  
+  .search-field input {
+    margin-bottom: 20px;
+  }
+  
+  .header-menu {
+    margin-bottom: 20px;
+  }
+  
+  .list {
+    flex-direction: column;
+  }
+
+  .userData-contactMaps {
+    flex-direction: column;
+    width: 815px;
+  }
+
+  .contact-img {
+    margin-top: 20px;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  }
+
+  .maps {
+    width: 815px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .maps iframe  {
+    width: 780px;
+  }
+
+  .footer-row1 {
+    flex-direction: column;
+  }
+  
+  .footer-40 {
+    position: relative;
+    left: 100px;
+    text-align: center;
+    width: 600px;
+  }
+  
+  .footerS-30 {
+    position: relative;
+    left: 270px;
+  }
+  
+}
+
+  /* iPad Mini */
+@media only screen and (min-width: 765px) and (max-width: 770px) {
+  h1{
+    padding-left: 50px;
+    padding-right: 30px;
+  }
+
+  .prep{
+  
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .header {
+    flex-direction: column;
+  }
+  
+  .search-field input {
+    margin-bottom: 20px;
+  }
+  
+  .header-menu {
+    margin-bottom: 20px;
+  }
+  
+  .list {
+    flex-direction: column;
+  }
+
+  .userData-contactMaps {
+    flex-direction: column;
+    width: 765px;
+  }
+
+  .contact-img {
+    margin-top: 20px;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  }
+
+  .maps {
+    width: 765px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .maps iframe {
+    width: 730px;
+  }
+
+  .footer-row1 {
+    flex-direction: column;
+    text-align: center;
+    width: 440px;
+    position: relative;
+    left: 150px;
+  }
+  
+ 
+  
+  .footerS-30 {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  
+  }
+
+  /* Surface Pro 7 */
+@media only screen and (min-width: 910px) and (max-width: 915px) {
+  h1{
+    padding-left: 50px;
+    padding-right: 30px;
+  }
+
+  .prep{
+  
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .header {
+    flex-direction: column;
+  }
+  
+  .search-field input {
+    margin-bottom: 20px;
+  }
+  
+  .header-menu {
+    margin-bottom: 20px;
+  }
+  
+  .list {
+    flex-direction: column;
+  }
+
+  .userData-contactMaps {
+    flex-direction: column;
+    width: 765px;
+  }
+
+  .contact-img {
+    margin-top: 20px;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  }
+
+  .maps {
+    width: 765px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .maps iframe {
+    width: 912px;
+  }
+
+  .footerS-30 {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  
+  
+  }
+
+  /* Surface Duo */
+@media only screen and (min-width: 535px) and (max-width: 545px) {
+  h1{
+    padding-left: 50px;
+    padding-right: 30px;
+  }
+
+  .prep{
+  
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .header {
+    flex-direction: column;
+  }
+  
+  .search-field input {
+    margin-bottom: 20px;
+  }
+  
+  .header-menu {
+    margin-bottom: 20px;
+  }
+  
+  .list {
+    flex-direction: column;
+  }
+
+  .userData-contactMaps {
+    flex-direction: column;
+    width: 535px;
+  }
+
+  .contact-img {
+    margin-top: 20px;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  }
+
+  
+  .maps {
+    width: 510px;
+    position: relative;
+    left: 15px;
+  }
+
+  .maps iframe {
+    width: 500px;
+  }
+
+  .footer-row1 {
+    flex-direction: column;
+  }
+  
+  .footer-40 {
+    position: relative;
+    left: 20px;
+    text-align: center;
+    width: 500px;
+  }
+  
+  .footerS-30 {
+    position: relative;
+    left: 125px;
+  }
+  
+  .row {
+    position: relative;
+    right: 120px;
+  }
+  
+  .footer-icons {
+    position: relative;
+    left:130px;
+  }
+  
+  }
+
+  /* Galaxy Fold */
+@media only screen and (min-width: 270px) and (max-width: 285px) {
+.Rezept1_Pic{
+  width: 260px;
+  padding-right: 0;
+  padding-left: 0;
+  
+}
+
+  h1{
+    padding-left: 50px;
+    padding-right: 30px;
+  }
+
+  .prep{
+  
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  
+  .ingredients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .header {
+    flex-direction: column;
+    width: 280px;
+  }
+
+
+  .search {
+    width: 270px;
+    margin-bottom: 20px;
+  }
+
+  .header-menu {
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+
+  .list {
+    flex-direction: column;
+  }
+
+  .first-point {
+    width: 270px;
+  }
+
+  .second-point {
+    width: 270px;
+  }
+
+  .third-point {
+    width: 270px;
+  }
+
+  .userData-contactMaps {
+    flex-direction: column;
+    width: 275px;
+  }
+
+  .contact-img {
+    margin-top: 20px;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  }
+
+  .maps iframe {
+    width: 270px;
+  }
+
+  .footer-row1 {
+    flex-direction: column;
+    width: 270px;
+  }
+
+  .footer-40 {
+    text-align: center;
+    width: 270px;
+    position: relative;
+    left: 5px;
+  }
+
+  .footerS-30 {
+    flex-direction: column;
+    width: 150px;
+    position: relative;
+    left: 90px;
+    text-align: center;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-low {
+    position: relative;
+    right: 60px;
+  }
+
+  .footer-icons {
+    position: relative;
+    right: 60px;
+  }
+  
+  }
+
+  /* Nest Hub */
+@media only screen and (min-width: 1020px) and (max-width: 1030px) {
+  h1{
+    padding-left: 50px;
+    padding-right: 30px;
+  }
+
+  .prep{
+  
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .header {
+    width: 1020px;
+    flex-direction: column;
+  }
+
+  .search-field input {
+    margin-bottom: 20px;
+  }
+
+  .header-menu {
+    margin-bottom: 20px;
+  }
+
+
+  .footerS-30 {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  }
